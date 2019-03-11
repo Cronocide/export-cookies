@@ -1,6 +1,4 @@
-// document.getElementById("go").addEventListener("click", exportCookies());
-// document.getElementById("go").addEventListener("mouseup", window.close());
-// chrome.browserAction.onClicked.addListener(exportCookies());
+
 function exportCookies() {
     chrome.tabs.query({"status":"complete","windowId":chrome.windows.WINDOW_ID_CURRENT,"active":true}, function(tab){
         chrome.cookies.getAll({
