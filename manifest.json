@@ -1,0 +1,23 @@
+{
+    "name": "Export Cookies",
+    "version": "1.0",
+    "description": "Exports all Chrome cookies to a Netscape cookie file.",
+    "browser_action": {
+        "default_title": "Export Cookies",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "cookies",
+        "downloads",
+        "storage",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "icons": {
+        "16": "images/cookie_16.png",
+        "32": "images/cookie_32.png",
+        "48": "images/cookie_48.png",
+        "128": "images/cookie_128.png"
+    },
+    "manifest_version": 2
+}
