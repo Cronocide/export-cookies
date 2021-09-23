@@ -1,6 +1,6 @@
 {
     "name": "Export Cookies",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Exports all Chrome cookies to a Netscape cookie file.",
     "browser_action": {
         "default_title": "Export Cookies",
