@@ -1,8 +1,8 @@
-# Export Cookies
-
 <p align="center">
-  <img src="https://github.com/Cronocide/export-cookies/raw/master/images/cookie_128.png"/>
+  <img src="https://github.com/Cronocide/export-cookies/raw/master/images/cookie.png"/>
 </p>
+
+# Export Cookies
 
 A Chrome extension to download the cookies for the current Chrome window as a Netscape cookie file.
 
